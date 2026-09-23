@@ -1,3 +1,4 @@
+
 import mysql.connector
 import json
 import os
@@ -5,7 +6,7 @@ from datetime import date, datetime
 
 
 # ============================================================
-# CONFIGURAÇÕES DO BANCO
+# CONFIGURAÇÕES DO BANCO DE DADOS
 # ============================================================
 
 DB_CONFIG = {
@@ -18,33 +19,79 @@ DB_CONFIG = {
 
 
 # ============================================================
-# CONFIGURAÇÃO DOS ARQUIVOS
+# CONFIGURAÇÃO DAS PASTAS
 # ============================================================
 
-PASTA_SAIDA = "dados"
+# Pega a pasta onde este arquivo extrator.py está localizado
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Pasta onde será salvo o JSON
+PASTA_SAIDA = os.path.join(
+    BASE_DIR,
+    "dados"
+)
+
+# Pasta onde serão armazenados os logs
+PASTA_LOGS = os.path.join(
+    BASE_DIR,
+    "logs"
+)
+
+# Cria as pastas caso ainda não existam
+os.makedirs(PASTA_SAIDA, exist_ok=True)
+os.makedirs(PASTA_LOGS, exist_ok=True)
+
+
+# ============================================================
+# ARQUIVOS
+# ============================================================
 
 DATA_ATUAL = datetime.now().strftime("%Y-%m-%d")
 
 ARQUIVO_JSON = os.path.join(
     PASTA_SAIDA,
-    f"infrequencias.json"
+    "infrequencias.json"
+)
+
+ARQUIVO_LOG = os.path.join(
+    PASTA_LOGS,
+    "extrator.log"
 )
 
 
 # ============================================================
-# CRIAR PASTA
+# FUNÇÃO DE LOG
 # ============================================================
 
-os.makedirs(PASTA_SAIDA, exist_ok=True)
+def registrar_log(mensagem):
+    """
+    Registra uma mensagem no arquivo de log.
+    """
+
+    data_hora = datetime.now().strftime(
+        "%Y-%m-%d %H:%M:%S"
+    )
+
+    linha = f"[{data_hora}] {mensagem}\n"
+
+    with open(
+        ARQUIVO_LOG,
+        "a",
+        encoding="utf-8"
+    ) as arquivo:
+
+        arquivo.write(linha)
 
 
 # ============================================================
-# CONVERTER DATA/HORA PARA JSON
+# CONVERSÃO PARA JSON
 # ============================================================
 
 def converter_json(obj):
+    """
+    Converte objetos date/datetime para texto.
+    """
 
-    # Trata tanto DATE quanto DATETIME do MySQL
     if isinstance(obj, (date, datetime)):
         return obj.isoformat()
 
@@ -54,7 +101,7 @@ def converter_json(obj):
 
 
 # ============================================================
-# EXTRAIR INFREQUÊNCIAS
+# EXTRAÇÃO DAS INFREQUÊNCIAS
 # ============================================================
 
 def extrair_infrequencias():
@@ -68,39 +115,60 @@ def extrair_infrequencias():
         print("EXTRAÇÃO DE INFREQUÊNCIAS")
         print("=" * 60)
 
-        print(f"Data da extração: {DATA_ATUAL}")
-        print("Conectando ao banco de dados...")
+        print(
+            f"Data da extração: {DATA_ATUAL}"
+        )
 
-        # ----------------------------------------------------
-        # CONEXÃO
-        # ----------------------------------------------------
+        registrar_log("=" * 60)
+        registrar_log("INÍCIO DA EXTRAÇÃO")
+        registrar_log(
+            f"Data da extração: {DATA_ATUAL}"
+        )
 
+        print(
+            "Conectando ao banco de dados..."
+        )
+
+        registrar_log(
+            "Conectando ao banco de dados..."
+        )
+
+        # Conexão com o MySQL
         conexao = mysql.connector.connect(
             **DB_CONFIG
         )
 
-        print("Banco de dados conectado com sucesso!")
+        print(
+            "Banco de dados conectado com sucesso!"
+        )
+
+        registrar_log(
+            "Banco de dados conectado com sucesso!"
+        )
+
+
+        # ====================================================
+        # CURSOR
+        # ====================================================
 
         cursor = conexao.cursor(
             dictionary=True
         )
 
-        # ----------------------------------------------------
-        # CONSULTA
-        # ----------------------------------------------------
+
+        # ====================================================
+        # CONSULTA SQL
+        # ====================================================
 
         sql = """
             SELECT
-
                 c.id AS chamada_id,
-
                 c.data,
                 c.status,
                 c.created_at,
 
                 a.id AS aluno_id,
                 a.nome AS aluno_nome,
-
                 a.turma_id,
 
                 t.nome AS turma_nome,
@@ -131,19 +199,42 @@ def extrair_infrequencias():
                 c.id ASC
         """
 
-        print("Executando consulta...")
+
+        # ====================================================
+        # EXECUTA CONSULTA
+        # ====================================================
+
+        print(
+            "Executando consulta..."
+        )
+
+        registrar_log(
+            "Executando consulta..."
+        )
 
         cursor.execute(sql)
 
         registros = cursor.fetchall()
 
+
+        # ====================================================
+        # TOTAL
+        # ====================================================
+
+        total_faltas = len(registros)
+
         print(
-            f"Total de faltas encontradas: {len(registros)}"
+            f"Total de faltas encontradas: {total_faltas}"
         )
 
-        # ----------------------------------------------------
-        # RESULTADO
-        # ----------------------------------------------------
+        registrar_log(
+            f"Total de faltas encontradas: {total_faltas}"
+        )
+
+
+        # ====================================================
+        # MONTA JSON
+        # ====================================================
 
         resultado = {
 
@@ -153,18 +244,28 @@ def extrair_infrequencias():
 
             "data_extracao": DATA_ATUAL,
 
-            "data_hora_extracao": datetime.now().isoformat(),
+            "data_hora_extracao":
+                datetime.now().isoformat(),
 
-            "total_faltas": len(registros),
+            "total_faltas":
+                total_faltas,
 
-            "infrequencias": registros
+            "infrequencias":
+                registros
         }
 
-        # ----------------------------------------------------
-        # SALVAR JSON
-        # ----------------------------------------------------
 
-        print("Salvando arquivo JSON...")
+        # ====================================================
+        # SALVA JSON
+        # ====================================================
+
+        print(
+            "Salvando arquivo JSON..."
+        )
+
+        registrar_log(
+            "Salvando arquivo JSON..."
+        )
 
         with open(
             ARQUIVO_JSON,
@@ -180,21 +281,46 @@ def extrair_infrequencias():
                 default=converter_json
             )
 
-        # ----------------------------------------------------
-        # FINAL
-        # ----------------------------------------------------
+
+        # ====================================================
+        # SUCESSO
+        # ====================================================
+
+        caminho_json = os.path.abspath(
+            ARQUIVO_JSON
+        )
 
         print()
         print("SUCESSO!")
+
         print(
-            f"Arquivo gerado: {os.path.abspath(ARQUIVO_JSON)}"
+            f"Arquivo gerado: {caminho_json}"
         )
 
         print(
-            f"Total de registros: {len(registros)}"
+            f"Total de registros: {total_faltas}"
         )
 
         print("=" * 60)
+
+        registrar_log(
+            "EXTRAÇÃO CONCLUÍDA COM SUCESSO"
+        )
+
+        registrar_log(
+            f"Arquivo gerado: {caminho_json}"
+        )
+
+        registrar_log(
+            f"Total de registros: {total_faltas}"
+        )
+
+        registrar_log("=" * 60)
+
+
+    # ========================================================
+    # ERRO DO MYSQL
+    # ========================================================
 
     except mysql.connector.Error as erro:
 
@@ -203,6 +329,19 @@ def extrair_infrequencias():
         print(erro)
         print("=" * 60)
 
+        registrar_log(
+            "ERRO NO MYSQL"
+        )
+
+        registrar_log(
+            str(erro)
+        )
+
+
+    # ========================================================
+    # OUTROS ERROS
+    # ========================================================
+
     except Exception as erro:
 
         print()
@@ -210,18 +349,25 @@ def extrair_infrequencias():
         print(erro)
         print("=" * 60)
 
+        registrar_log(
+            "ERRO DURANTE A EXECUÇÃO"
+        )
+
+        registrar_log(
+            str(erro)
+        )
+
+
+    # ========================================================
+    # FECHAMENTO
+    # ========================================================
+
     finally:
 
-        # ----------------------------------------------------
-        # FECHAR CURSOR
-        # ----------------------------------------------------
-
         if cursor is not None:
+
             cursor.close()
 
-        # ----------------------------------------------------
-        # FECHAR CONEXÃO
-        # ----------------------------------------------------
 
         if (
             conexao is not None
@@ -234,11 +380,16 @@ def extrair_infrequencias():
                 "Conexão com o banco encerrada."
             )
 
+            registrar_log(
+                "Conexão com o banco encerrada."
+            )
+
 
 # ============================================================
-# EXECUTAR
+# EXECUÇÃO PRINCIPAL
 # ============================================================
 
 if __name__ == "__main__":
 
     extrair_infrequencias()
+
