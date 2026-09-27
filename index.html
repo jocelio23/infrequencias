@@ -150,6 +150,19 @@
         }
 
         /* =========================
+           BOTÃO CSV
+        ========================= */
+
+        .btn-csv {
+            background: #15803d;
+            color: #fff;
+        }
+
+        .btn-csv:hover {
+            background: #166534;
+        }
+
+        /* =========================
            RESULTADO
         ========================= */
 
@@ -212,10 +225,6 @@
             border: 1px solid #ddd;
             border-radius: 6px;
 
-            /*
-             * Importante para celular:
-             * a tabela rola somente dentro desta área.
-             */
             -webkit-overflow-scrolling: touch;
 
             scrollbar-width: thin;
@@ -258,8 +267,8 @@
 
         /*
          * Coluna do nome do aluno.
-         * Fica fixa durante a rolagem horizontal.
          */
+
         th.nome-aluno,
         td.nome-aluno {
             text-align: left;
@@ -290,6 +299,7 @@
         /*
          * Data.
          */
+
         .data-header {
             cursor: pointer;
             min-width: 75px;
@@ -303,6 +313,7 @@
         /*
          * Falta.
          */
+
         td.falta {
             background: #fee2e2;
             color: #b91c1c;
@@ -312,6 +323,7 @@
         /*
          * Dia sem falta registrada.
          */
+
         td.presenca {
             color: #9ca3af;
         }
@@ -319,6 +331,7 @@
         /*
          * Coluna selecionada.
          */
+
         .coluna-selecionada {
             background: #fef3c7 !important;
         }
@@ -326,6 +339,7 @@
         /*
          * Mensagens.
          */
+
         .mensagem {
             padding: 20px;
             text-align: center;
@@ -452,13 +466,9 @@
                 font-size: 16px;
             }
 
-            /*
-             * 16px evita zoom automático
-             * em inputs no iPhone.
-             */
-
             .btn-filtrar,
-            .btn-limpar {
+            .btn-limpar,
+            .btn-csv {
                 min-height: 48px;
             }
 
@@ -853,6 +863,21 @@
 
                 </div>
 
+
+                <!-- BAIXAR CSV -->
+
+                <div class="campo">
+
+                    <button
+                        type="button"
+                        id="btnBaixarCSV"
+                        class="btn-csv"
+                    >
+                        Baixar CSV
+                    </button>
+
+                </div>
+
             </div>
 
         </form>
@@ -901,6 +926,12 @@
 
     let datasExibidas = [];
 
+    /*
+     * Guarda os registros atualmente
+     * filtrados e exibidos na tabela.
+     */
+    let registrosAtuais = [];
+
 
     const form =
         document.getElementById(
@@ -932,10 +963,6 @@
      * ================================
      * ANO ATUAL
      * ================================
-     *
-     * O ano é preenchido automaticamente.
-     *
-     * O usuário pode alterar normalmente.
      */
 
     function definirAnoAtual() {
@@ -1058,7 +1085,7 @@
 
     /*
      * ================================
-     * FORMATAR DATA
+     * FORMATAR DATA NA TELA
      * ================================
      */
 
@@ -1082,6 +1109,31 @@
             ${partes[1]}/
             ${partes[0]}
         `;
+    }
+
+
+    /*
+     * ================================
+     * FORMATAR DATA PARA CSV
+     * ================================
+     */
+
+    function formatarDataCSV(data) {
+
+        if (!data) {
+            return '';
+        }
+
+        const partes =
+            data.split('-');
+
+
+        if (partes.length !== 3) {
+            return data;
+        }
+
+
+        return `${partes[2]}/${partes[1]}/${partes[0]}`;
     }
 
 
@@ -1915,6 +1967,368 @@
 
     /*
      * ================================
+     * ESCAPAR CSV
+     * ================================
+     */
+
+    function escaparCSV(
+        valor
+    ) {
+
+        const texto =
+            String(
+                valor ?? ''
+            );
+
+
+        /*
+         * Se possuir ponto e vírgula,
+         * aspas ou quebra de linha,
+         * coloca o valor entre aspas.
+         */
+
+        if (
+            texto.includes(';') ||
+            texto.includes('"') ||
+            texto.includes('\n') ||
+            texto.includes('\r')
+        ) {
+
+            return '"' +
+                texto.replace(
+                    /"/g,
+                    '""'
+                ) +
+                '"';
+        }
+
+
+        return texto;
+    }
+
+
+    /*
+     * ================================
+     * BAIXAR CSV
+     * ================================
+     */
+
+    function baixarCSV() {
+
+        /*
+         * Verifica se existe resultado
+         * filtrado.
+         */
+
+        if (
+            !registrosAtuais.length
+        ) {
+
+            alert(
+                'Primeiro selecione os filtros e clique em "Filtrar".'
+            );
+
+            return;
+        }
+
+
+        /*
+         * ================================
+         * DATAS
+         * ================================
+         */
+
+        const datasSet =
+            new Set();
+
+
+        registrosAtuais.forEach(
+            item => {
+
+                const data =
+                    normalizarData(
+                        item.data
+                    );
+
+
+                if (data) {
+
+                    datasSet.add(
+                        data
+                    );
+                }
+            }
+        );
+
+
+        const datas =
+            Array.from(
+                datasSet
+            ).sort();
+
+
+        /*
+         * ================================
+         * ALUNOS
+         * ================================
+         */
+
+        const alunosMap =
+            new Map();
+
+
+        registrosAtuais.forEach(
+            item => {
+
+                const alunoId =
+                    item.aluno_id !==
+                        undefined &&
+                    item.aluno_id !==
+                        null
+
+                        ? String(
+                            item.aluno_id
+                        )
+
+                        : String(
+                            item.aluno_nome
+                        );
+
+
+                if (
+                    !alunosMap.has(
+                        alunoId
+                    )
+                ) {
+
+                    alunosMap.set(
+                        alunoId,
+                        {
+                            id: alunoId,
+
+                            nome:
+                                item.aluno_nome ||
+                                'Aluno sem nome'
+                        }
+                    );
+                }
+            }
+        );
+
+
+        const alunos =
+            Array.from(
+                alunosMap.values()
+            ).sort(
+                (a, b) =>
+                    a.nome.localeCompare(
+                        b.nome,
+                        'pt-BR'
+                    )
+            );
+
+
+        /*
+         * ================================
+         * MAPA DE FALTAS
+         * ================================
+         */
+
+        const faltas =
+            new Set();
+
+
+        registrosAtuais.forEach(
+            item => {
+
+                const alunoId =
+                    item.aluno_id !==
+                        undefined &&
+                    item.aluno_id !==
+                        null
+
+                        ? String(
+                            item.aluno_id
+                        )
+
+                        : String(
+                            item.aluno_nome
+                        );
+
+
+                const data =
+                    normalizarData(
+                        item.data
+                    );
+
+
+                if (
+                    item.status &&
+                    String(
+                        item.status
+                    ).toLowerCase() ===
+                        'falta'
+                ) {
+
+                    faltas.add(
+                        `${alunoId}|${data}`
+                    );
+                }
+            }
+        );
+
+
+        /*
+         * ================================
+         * CABEÇALHO DO CSV
+         * ================================
+         */
+
+        const linhas = [];
+
+
+        const cabecalho = [
+            'Aluno',
+            ...datas.map(
+                data =>
+                    formatarDataCSV(
+                        data
+                    )
+            )
+        ];
+
+
+        linhas.push(
+            cabecalho
+                .map(
+                    escaparCSV
+                )
+                .join(';')
+        );
+
+
+        /*
+         * ================================
+         * LINHAS DOS ALUNOS
+         * ================================
+         */
+
+        alunos.forEach(
+            aluno => {
+
+                const linha = [
+                    aluno.nome
+                ];
+
+
+                datas.forEach(
+                    data => {
+
+                        const chave =
+                            `${aluno.id}|${data}`;
+
+
+                        if (
+                            faltas.has(
+                                chave
+                            )
+                        ) {
+
+                            linha.push(
+                                'X'
+                            );
+
+                        } else {
+
+                            linha.push(
+                                '-'
+                            );
+                        }
+                    }
+                );
+
+
+                linhas.push(
+                    linha
+                        .map(
+                            escaparCSV
+                        )
+                        .join(';')
+                );
+            }
+        );
+
+
+        /*
+         * ================================
+         * CRIAR ARQUIVO CSV
+         * ================================
+         *
+         * O BOM UTF-8 é colocado no início
+         * para o Excel reconhecer corretamente
+         * acentos como:
+         *
+         * ç, ã, é, õ, etc.
+         */
+
+        const csv =
+            '\uFEFF' +
+            linhas.join(
+                '\r\n'
+            );
+
+
+        const blob =
+            new Blob(
+                [csv],
+                {
+                    type:
+                        'text/csv;charset=utf-8;'
+                }
+            );
+
+
+        const url =
+            URL.createObjectURL(
+                blob
+            );
+
+
+        const link =
+            document.createElement(
+                'a'
+            );
+
+
+        link.href =
+            url;
+
+
+        link.download =
+            'infrequencias.csv';
+
+
+        document.body.appendChild(
+            link
+        );
+
+
+        link.click();
+
+
+        document.body.removeChild(
+            link
+        );
+
+
+        URL.revokeObjectURL(
+            url
+        );
+    }
+
+
+    /*
+     * ================================
      * FILTRAR
      * ================================
      */
@@ -1928,6 +2342,15 @@
 
             const registros =
                 filtrarDados();
+
+
+            /*
+             * Guarda exatamente os registros
+             * que foram filtrados.
+             */
+
+            registrosAtuais =
+                registros;
 
 
             montarTabela(
@@ -1997,6 +2420,13 @@
 
 
                 /*
+                 * Limpa os registros atuais.
+                 */
+
+                registrosAtuais = [];
+
+
+                /*
                  * Esconde resultado.
                  */
 
@@ -2006,6 +2436,22 @@
                 resultado.innerHTML =
                     '';
             }
+        );
+
+
+    /*
+     * ================================
+     * BOTÃO BAIXAR CSV
+     * ================================
+     */
+
+    document
+        .getElementById(
+            'btnBaixarCSV'
+        )
+        .addEventListener(
+            'click',
+            baixarCSV
         );
 
 
