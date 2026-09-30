@@ -1,12 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Controle de Infrequências</title>
 
     <style>
+
         * {
             box-sizing: border-box;
         }
@@ -37,6 +45,30 @@
             margin: 0 0 20px;
             color: #1f2937;
             font-size: 28px;
+        }
+
+        /* =========================
+           DATA DE ATUALIZAÇÃO
+        ========================= */
+
+        .data-atualizacao {
+            display: inline-block;
+
+            margin-left: 12px;
+
+            padding: 5px 9px;
+
+            background: #eff6ff;
+            color: #1d4ed8;
+
+            border: 1px solid #bfdbfe;
+
+            border-radius: 5px;
+
+            font-size: 13px;
+            font-weight: normal;
+
+            vertical-align: middle;
         }
 
         .card {
@@ -265,9 +297,9 @@
             font-size: 13px;
         }
 
-        /*
-         * Coluna do nome do aluno.
-         */
+        /* =========================
+           COLUNA DO ALUNO
+        ========================= */
 
         th.nome-aluno,
         td.nome-aluno {
@@ -296,9 +328,9 @@
             z-index: 5;
         }
 
-        /*
-         * Data.
-         */
+        /* =========================
+           DATA
+        ========================= */
 
         .data-header {
             cursor: pointer;
@@ -310,9 +342,9 @@
             background: #374151;
         }
 
-        /*
-         * Falta.
-         */
+        /* =========================
+           FALTA
+        ========================= */
 
         td.falta {
             background: #fee2e2;
@@ -320,25 +352,25 @@
             font-weight: bold;
         }
 
-        /*
-         * Dia sem falta registrada.
-         */
+        /* =========================
+           PRESENÇA
+        ========================= */
 
         td.presenca {
             color: #9ca3af;
         }
 
-        /*
-         * Coluna selecionada.
-         */
+        /* =========================
+           COLUNA SELECIONADA
+        ========================= */
 
         .coluna-selecionada {
             background: #fef3c7 !important;
         }
 
-        /*
-         * Mensagens.
-         */
+        /* =========================
+           MENSAGENS
+        ========================= */
 
         .mensagem {
             padding: 20px;
@@ -415,6 +447,21 @@
                 font-size: 21px;
                 line-height: 1.25;
                 margin-bottom: 16px;
+            }
+
+            /* -------------------------
+               DATA DE ATUALIZAÇÃO
+            ------------------------- */
+
+            .data-atualizacao {
+                display: block;
+
+                width: fit-content;
+
+                margin-left: 0;
+                margin-top: 7px;
+
+                font-size: 12px;
             }
 
             /* -------------------------
@@ -506,7 +553,7 @@
             }
 
             /* -------------------------
-               TABELA NO CELULAR
+               TABELA
             ------------------------- */
 
             .tabela-container {
@@ -613,7 +660,9 @@
                 width: 63px;
             }
         }
+
     </style>
+
 </head>
 
 <body>
@@ -626,36 +675,52 @@
 
     <div class="card">
 
-        <h1>Controle de Infrequências</h1>
+        <h1>
+            Controle de Infrequências
+
+            <span
+                id="dataAtualizacao"
+                class="data-atualizacao"
+            ></span>
+        </h1>
 
         <div class="periodos">
 
             <label>
+
                 <input
                     type="radio"
                     name="tipo_periodo"
                     value="periodo"
                     checked
                 >
+
                 Período
+
             </label>
 
             <label>
+
                 <input
                     type="radio"
                     name="tipo_periodo"
                     value="mes"
                 >
+
                 Mês
+
             </label>
 
             <label>
+
                 <input
                     type="radio"
                     name="tipo_periodo"
                     value="ano"
                 >
+
                 Ano
+
             </label>
 
         </div>
@@ -1139,6 +1204,70 @@
 
     /*
      * ================================
+     * ATUALIZAR DATA DE ATUALIZAÇÃO
+     * ================================
+     *
+     * Usa a data mais recente encontrada
+     * no campo "data" do JSON.
+     */
+
+    function atualizarDataAtualizacao() {
+
+        const elemento =
+            document.getElementById(
+                'dataAtualizacao'
+            );
+
+
+        if (!dados.length) {
+
+            elemento.textContent = '';
+
+            return;
+        }
+
+
+        const datas =
+            dados
+
+                .map(
+                    item =>
+                        normalizarData(
+                            item.data
+                        )
+                )
+
+                .filter(
+                    data => data
+                );
+
+
+        if (!datas.length) {
+
+            elemento.textContent = '';
+
+            return;
+        }
+
+
+        /*
+         * Ordena as datas.
+         *
+         * Como estão no formato YYYY-MM-DD,
+         * a ordenação funciona corretamente.
+         */
+
+        const dataMaisRecente =
+            datas.sort().pop();
+
+
+        elemento.textContent =
+            `Atualizado em ${formatarData(dataMaisRecente)}`;
+    }
+
+
+    /*
+     * ================================
      * CARREGAR JSON
      * ================================
      */
@@ -1193,7 +1322,19 @@
             }
 
 
+            /*
+             * Preenche as turmas.
+             */
+
             preencherTurmas();
+
+
+            /*
+             * Atualiza a data mostrada
+             * ao lado do título.
+             */
+
+            atualizarDataAtualizacao();
 
 
             carregando.style.display =
@@ -1562,7 +1703,6 @@
                     normalizarData(
                         item.data
                     );
-
 
                 if (data) {
                     datasSet.add(data);
@@ -2490,4 +2630,5 @@
 </script>
 
 </body>
+
 </html>
