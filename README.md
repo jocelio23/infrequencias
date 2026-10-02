@@ -1,4 +1,4 @@
-Instruções de funcionamento para colocar as infrequências quando o sistema desligar
+Instruções de funcionamento para colocar as infrequências quando o sistema desligar(teste)
 
 criar aquivo. bat -> inicializar repositório com as config git-> agendar tarefa no windows (win+R taskschd.msc)
 
