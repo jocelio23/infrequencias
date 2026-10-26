@@ -2,8 +2,8 @@
     "sistema": "Escola",
     "tipo": "Infrequências",
     "data_extracao": "2026-10-26",
-    "data_hora_extracao": "2026-10-26T08:36:10.242911",
-    "total_faltas": 9438,
+    "data_hora_extracao": "2026-10-26T14:30:09.874526",
+    "total_faltas": 9493,
     "infrequencias": [
         {
             "chamada_id": 494,
@@ -12186,6 +12186,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64862,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 48,
+            "aluno_nome": "Ana Constancia De Sousa E Lima",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 587,
             "data": "2026-03-30",
             "status": "falta",
@@ -12536,6 +12550,20 @@
             "professor_id": 32
         },
         {
+            "chamada_id": 64863,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 49,
+            "aluno_nome": "Ana Livia Cassiano Da Silva",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 7454,
             "data": "2026-04-24",
             "status": "falta",
@@ -12576,6 +12604,20 @@
             "curso_id": 15,
             "curso_nome": "Administração 3",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 64864,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 50,
+            "aluno_nome": "Antonia Mariane De Sousa Rocha",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
         },
         {
             "chamada_id": 1872,
@@ -12998,6 +13040,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64866,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 52,
+            "aluno_nome": "Cibelle De Franca Souza",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 1458,
             "data": "2026-04-06",
             "status": "falta",
@@ -13390,6 +13446,20 @@
             "professor_id": 33
         },
         {
+            "chamada_id": 64867,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 54,
+            "aluno_nome": "Davi Ventura Melo",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 593,
             "data": "2026-03-30",
             "status": "falta",
@@ -13614,6 +13684,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64868,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 55,
+            "aluno_nome": "Diciany Da Silva Limeira",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 5341,
             "data": "2026-04-21",
             "status": "falta",
@@ -13794,6 +13878,20 @@
             "curso_id": 15,
             "curso_nome": "Administração 3",
             "professor_id": 14
+        },
+        {
+            "chamada_id": 64869,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 56,
+            "aluno_nome": "Elber Da Silva Ferreira",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
         },
         {
             "chamada_id": 13842,
@@ -14286,6 +14384,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64872,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 59,
+            "aluno_nome": "Joana De Freitas Xavier",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 11531,
             "data": "2026-05-05",
             "status": "falta",
@@ -14678,6 +14790,20 @@
             "professor_id": 32
         },
         {
+            "chamada_id": 64875,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 62,
+            "aluno_nome": "Joao Lucas Felix Da Silva",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 7678,
             "data": "2026-04-27",
             "status": "falta",
@@ -15056,6 +15182,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64877,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 65,
+            "aluno_nome": "Majori Cristina Da Costa Reis",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 25071,
             "data": "2026-06-02",
             "status": "falta",
@@ -15312,6 +15452,20 @@
             "data": "2026-10-19",
             "status": "falta",
             "created_at": "2026-10-19T09:07:23",
+            "aluno_id": 67,
+            "aluno_nome": "Maria Heloysa Conceicao Silva",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
+            "chamada_id": 64879,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
             "aluno_id": 67,
             "aluno_nome": "Maria Heloysa Conceicao Silva",
             "turma_id": 2,
@@ -15882,6 +16036,20 @@
             "professor_id": 32
         },
         {
+            "chamada_id": 64881,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 69,
+            "aluno_nome": "Maria Ludimilla Santos Moreira",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 1892,
             "data": "2026-04-08",
             "status": "falta",
@@ -16050,6 +16218,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 64882,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 71,
+            "aluno_nome": "Mariana Da Silva Soares",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 13893,
             "data": "2026-05-11",
             "status": "falta",
@@ -16146,6 +16328,20 @@
             "curso_id": 15,
             "curso_nome": "Administração 3",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 64883,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 72,
+            "aluno_nome": "Marina Camille Lua Drai",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
         },
         {
             "chamada_id": 611,
@@ -16390,6 +16586,20 @@
             "data": "2026-10-19",
             "status": "falta",
             "created_at": "2026-10-19T09:07:23",
+            "aluno_id": 73,
+            "aluno_nome": "Maycon Caio Rodrigues Da Silva",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
+            "chamada_id": 64884,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
             "aluno_id": 73,
             "aluno_nome": "Maycon Caio Rodrigues Da Silva",
             "turma_id": 2,
@@ -16720,6 +16930,20 @@
             "curso_id": 15,
             "curso_nome": "Administração 3",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 64885,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 74,
+            "aluno_nome": "Mirelly Marques Eleuterio",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
         },
         {
             "chamada_id": 1896,
@@ -17170,6 +17394,20 @@
             "professor_id": 33
         },
         {
+            "chamada_id": 64887,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 76,
+            "aluno_nome": "Nicolle Da Silva Costa",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 1898,
             "data": "2026-04-08",
             "status": "falta",
@@ -17482,6 +17720,20 @@
             "data": "2026-10-19",
             "status": "falta",
             "created_at": "2026-10-19T09:07:23",
+            "aluno_id": 77,
+            "aluno_nome": "Paulo Andre Reboucas Oliveira Filho",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
+            "chamada_id": 64888,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
             "aluno_id": 77,
             "aluno_nome": "Paulo Andre Reboucas Oliveira Filho",
             "turma_id": 2,
@@ -18052,6 +18304,20 @@
             "professor_id": 25
         },
         {
+            "chamada_id": 64892,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 81,
+            "aluno_nome": "Samuel Vitor Ferreira Silva",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 1572,
             "data": "2026-04-07",
             "status": "falta",
@@ -18260,6 +18526,20 @@
             "curso_id": 15,
             "curso_nome": "Administração 3",
             "professor_id": 33
+        },
+        {
+            "chamada_id": 64893,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 82,
+            "aluno_nome": "Sayra Jhyenifer Chaves Costa",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
         },
         {
             "chamada_id": 621,
@@ -18584,6 +18864,20 @@
             "professor_id": 33
         },
         {
+            "chamada_id": 64894,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
+            "aluno_id": 83,
+            "aluno_nome": "Thais Da Silva Beserra",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 1574,
             "data": "2026-04-07",
             "status": "falta",
@@ -18854,6 +19148,20 @@
             "data": "2026-10-19",
             "status": "falta",
             "created_at": "2026-10-19T09:07:23",
+            "aluno_id": 85,
+            "aluno_nome": "Vitoria Ketelly De Sousa Costa",
+            "turma_id": 2,
+            "turma_nome": "Administração 3 - 3º Ano",
+            "ano": "3º Ano",
+            "curso_id": 15,
+            "curso_nome": "Administração 3",
+            "professor_id": 22
+        },
+        {
+            "chamada_id": 64896,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T09:44:03",
             "aluno_id": 85,
             "aluno_nome": "Vitoria Ketelly De Sousa Costa",
             "turma_id": 2,
@@ -95430,6 +95738,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64777,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 395,
+            "aluno_nome": "ALEX DA SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 275,
             "data": "2026-03-30",
             "status": "falta",
@@ -95906,6 +96228,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 64778,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 396,
+            "aluno_nome": "ANA BEATRIZ SILVA DO NASCIMENTO",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 5550,
             "data": "2026-04-21",
             "status": "falta",
@@ -96226,6 +96562,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64779,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 397,
+            "aluno_nome": "ANA JULIA DE SOUSA SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 6755,
@@ -96856,6 +97206,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64780,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 398,
+            "aluno_nome": "ANA VITÓRIA DA SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 278,
@@ -97600,6 +97964,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64781,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 399,
+            "aluno_nome": "ANTONIA INGRID DA SILVA BEZERRA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 9671,
             "data": "2026-04-30",
             "status": "falta",
@@ -97880,6 +98258,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 64782,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 400,
+            "aluno_nome": "ANTONIO ÁLVARO SILVA COSTA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 5554,
             "data": "2026-04-21",
             "status": "falta",
@@ -98144,6 +98536,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64783,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 401,
+            "aluno_nome": "ARIEL RAVI SILVA BRAGA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 5022,
@@ -98944,6 +99350,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64784,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 402,
+            "aluno_nome": "BRITES MARIA SOUSA DA SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 282,
             "data": "2026-03-30",
             "status": "falta",
@@ -99208,6 +99628,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 17
+        },
+        {
+            "chamada_id": 64786,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 404,
+            "aluno_nome": "EUDES CASTRO SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 5025,
@@ -100274,6 +100708,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64787,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 405,
+            "aluno_nome": "FRANCISCA GLORIA REBOUÇAS ALVES",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 5026,
             "data": "2026-04-17",
             "status": "falta",
@@ -100474,6 +100922,20 @@
             "data": "2026-09-29",
             "status": "falta",
             "created_at": "2026-09-29T07:45:02",
+            "aluno_id": 407,
+            "aluno_nome": "GEILSON BRAGA DA SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
+            "chamada_id": 64789,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
             "aluno_id": 407,
             "aluno_nome": "GEILSON BRAGA DA SILVA",
             "turma_id": 10,
@@ -100720,6 +101182,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64790,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 408,
+            "aluno_nome": "GUSTAVO LYRRANDRO DE ALMEIDA TRINDADE",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 10880,
@@ -101100,6 +101576,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64791,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 534,
+            "aluno_nome": "ISABELY DA SILVA BIZERRA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 6767,
             "data": "2026-04-23",
             "status": "falta",
@@ -101478,6 +101968,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 64792,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 410,
+            "aluno_nome": "JAQUIEL DA SILVA NUNES",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 6768,
             "data": "2026-04-23",
             "status": "falta",
@@ -101744,6 +102248,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 64793,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 411,
+            "aluno_nome": "JOÃO PEDRO NASCIMENTO VIANA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 13321,
             "data": "2026-05-08",
             "status": "falta",
@@ -101938,6 +102456,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64794,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 412,
+            "aluno_nome": "JOSÉ HELDER FELICIANO CRUZ",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 16858,
@@ -102906,6 +103438,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 64798,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 535,
+            "aluno_nome": "LUIS FELIPE DE SOUZA DA COSTA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 40080,
             "data": "2026-08-11",
             "status": "falta",
@@ -102946,6 +103492,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 64799,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 416,
+            "aluno_nome": "LUIZ GUILHERME DA SILVA ALMEIDA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 8637,
@@ -103534,6 +104094,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64801,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 418,
+            "aluno_nome": "MARIA LARA ARAUJO PEREIRA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 5573,
@@ -104138,6 +104712,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 64802,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 419,
+            "aluno_nome": "PABLO REBOUÇAS DE SOUZA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 7856,
             "data": "2026-04-27",
             "status": "falta",
@@ -104450,6 +105038,20 @@
             "data": "2026-10-22",
             "status": "falta",
             "created_at": "2026-10-22T07:56:29",
+            "aluno_id": 420,
+            "aluno_nome": "PEDRO KAIC NASCIMENTO DA SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
+            "chamada_id": 64803,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
             "aluno_id": 420,
             "aluno_nome": "PEDRO KAIC NASCIMENTO DA SILVA",
             "turma_id": 10,
@@ -104880,6 +105482,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 64804,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 421,
+            "aluno_nome": "PEDRO MANOEL SILVA NASCIMENTO",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 5576,
             "data": "2026-04-21",
             "status": "falta",
@@ -105132,6 +105748,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64805,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 422,
+            "aluno_nome": "RANILSON EMILIANO DE SOUZA SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 302,
             "data": "2026-03-30",
             "status": "falta",
@@ -105172,6 +105802,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 64806,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 423,
+            "aluno_nome": "RAUL HONORATO GOMES BARBOSA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 12224,
@@ -105508,6 +106152,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64807,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 424,
+            "aluno_nome": "RAY KAUAN COSTA LACERDA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 7133,
@@ -106406,6 +107064,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 64810,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 427,
+            "aluno_nome": "SABRINA DANTAS DA SILVA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 24400,
             "data": "2026-05-29",
             "status": "falta",
@@ -106928,6 +107600,20 @@
             "data": "2026-10-22",
             "status": "falta",
             "created_at": "2026-10-22T07:56:29",
+            "aluno_id": 429,
+            "aluno_nome": "SETE BESERRA BRAGA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
+            "chamada_id": 64812,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
             "aluno_id": 429,
             "aluno_nome": "SETE BESERRA BRAGA",
             "turma_id": 10,
@@ -108016,6 +108702,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64815,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 432,
+            "aluno_nome": "TIAGO DE OLIVEIRA SOARES",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 10905,
             "data": "2026-05-04",
             "status": "falta",
@@ -108062,6 +108762,20 @@
             "data": "2026-10-13",
             "status": "falta",
             "created_at": "2026-10-13T07:48:31",
+            "aluno_id": 536,
+            "aluno_nome": "VALDECIO VALENTE DA COSTA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
+            "chamada_id": 64816,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
             "aluno_id": 536,
             "aluno_nome": "VALDECIO VALENTE DA COSTA",
             "turma_id": 10,
@@ -108364,6 +109078,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64817,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 433,
+            "aluno_nome": "VALENTINA DOS SANTOS COSTA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 313,
@@ -108716,6 +109444,20 @@
             "professor_id": 22
         },
         {
+            "chamada_id": 64818,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 434,
+            "aluno_nome": "VICENTE MARQUES SILVA COSTA",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 5057,
             "data": "2026-04-17",
             "status": "falta",
@@ -108980,6 +109722,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 64819,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 435,
+            "aluno_nome": "VIVIAN DA SILVA ROLDÃO",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 7145,
@@ -109428,6 +110184,20 @@
             "curso_id": 10,
             "curso_nome": "Hospedagem 1",
             "professor_id": 22
+        },
+        {
+            "chamada_id": 64821,
+            "data": "2026-10-26",
+            "status": "falta",
+            "created_at": "2026-10-26T08:58:54",
+            "aluno_id": 437,
+            "aluno_nome": "WITALLO JORGE DA SILVA AURÉLIO",
+            "turma_id": 10,
+            "turma_nome": "Hospedagem 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 10,
+            "curso_nome": "Hospedagem 1",
+            "professor_id": 39
         },
         {
             "chamada_id": 4789,
