@@ -1,9 +1,9 @@
 {
     "sistema": "Escola",
     "tipo": "Infrequências",
-    "data_extracao": "2026-10-23",
-    "data_hora_extracao": "2026-10-23T14:30:09.690192",
-    "total_faltas": 9422,
+    "data_extracao": "2026-10-26",
+    "data_hora_extracao": "2026-10-26T08:36:10.242911",
+    "total_faltas": 9438,
     "infrequencias": [
         {
             "chamada_id": 494,
@@ -121988,6 +121988,20 @@
             "professor_id": 24
         },
         {
+            "chamada_id": 64690,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 485,
+            "aluno_nome": "Alvaro Daniel Monteiro Gomes",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 22477,
             "data": "2026-05-27",
             "status": "falta",
@@ -122464,6 +122478,20 @@
             "professor_id": 18
         },
         {
+            "chamada_id": 64692,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 487,
+            "aluno_nome": "Ana Raquel da Silva",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 10277,
             "data": "2026-04-30",
             "status": "falta",
@@ -122800,6 +122828,20 @@
             "professor_id": 21
         },
         {
+            "chamada_id": 64695,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 490,
+            "aluno_nome": "Antony Victor Viana Barros",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 1500,
             "data": "2026-04-07",
             "status": "falta",
@@ -123022,6 +123064,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 24
+        },
+        {
+            "chamada_id": 64696,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 491,
+            "aluno_nome": "Carlos Daniel Costa da Silva",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 932,
@@ -123316,6 +123372,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 18
+        },
+        {
+            "chamada_id": 64697,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 492,
+            "aluno_nome": "Carlos Maciel da Silva Costa",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 933,
@@ -123694,6 +123764,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 18
+        },
+        {
+            "chamada_id": 64699,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 494,
+            "aluno_nome": "Francielly Félix Rodrigues",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 552,
@@ -124450,6 +124534,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 64700,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 495,
+            "aluno_nome": "Francisco Denilson Rebouças da Silva",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 22487,
@@ -125278,6 +125376,20 @@
             "professor_id": 18
         },
         {
+            "chamada_id": 64705,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 500,
+            "aluno_nome": "Icaro da Silva Cruz",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 1510,
             "data": "2026-04-07",
             "status": "falta",
@@ -125598,6 +125710,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 18
+        },
+        {
+            "chamada_id": 64706,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 501,
+            "aluno_nome": "Israel de Oliveira Alves Filho",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 5737,
@@ -126244,6 +126370,20 @@
             "professor_id": 18
         },
         {
+            "chamada_id": 64709,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 503,
+            "aluno_nome": "Kerrison Marques da Costa",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 6862,
             "data": "2026-04-23",
             "status": "falta",
@@ -126774,6 +126914,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 18
+        },
+        {
+            "chamada_id": 64711,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 505,
+            "aluno_nome": "Levi Joabe da Silva Costa",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 3010,
@@ -127994,6 +128148,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 64716,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 510,
+            "aluno_nome": "Maria Clara gomes do Rosário",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 13424,
             "data": "2026-05-08",
             "status": "falta",
@@ -128496,6 +128664,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 64718,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 540,
+            "aluno_nome": "Maria Eduarda Oliveira da Costa",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 24958,
@@ -129786,6 +129968,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 64724,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 518,
+            "aluno_nome": "Pedro Lucas Nascimento de Sousa",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 11168,
             "data": "2026-05-05",
             "status": "falta",
@@ -129882,6 +130078,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 24
+        },
+        {
+            "chamada_id": 64725,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 519,
+            "aluno_nome": "Radassa Bezerra Rebouças",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 12788,
@@ -130848,6 +131058,20 @@
             "curso_id": 9,
             "curso_nome": "Sistemas de Energia 1",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 64729,
+            "data": "2026-10-23",
+            "status": "falta",
+            "created_at": "2026-10-23T14:51:26",
+            "aluno_id": 523,
+            "aluno_nome": "Rutyellen Soares da Cruz Rebouças",
+            "turma_id": 12,
+            "turma_nome": "Sistemas de Energia 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 9,
+            "curso_nome": "Sistemas de Energia 1",
+            "professor_id": 30
         },
         {
             "chamada_id": 581,
