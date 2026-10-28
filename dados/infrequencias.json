@@ -1,9 +1,9 @@
 {
     "sistema": "Escola",
     "tipo": "Infrequências",
-    "data_extracao": "2026-10-27",
-    "data_hora_extracao": "2026-10-27T14:30:09.362635",
-    "total_faltas": 9537,
+    "data_extracao": "2026-10-28",
+    "data_hora_extracao": "2026-10-28T14:30:11.798052",
+    "total_faltas": 9548,
     "infrequencias": [
         {
             "chamada_id": 494,
@@ -47788,6 +47788,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 65463,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:39:59",
+            "aluno_id": 222,
+            "aluno_nome": "ARIEL OLIVEIRA DA SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 36
+        },
+        {
             "chamada_id": 13444,
             "data": "2026-05-08",
             "status": "falta",
@@ -49984,6 +49998,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 65468,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:39:59",
+            "aluno_id": 537,
+            "aluno_nome": "FRANCISCO VINÍCIUS DE OLIVEIRA VERÍSSIMO",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 36
         },
         {
             "chamada_id": 1371,
@@ -52366,6 +52394,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 65473,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:39:59",
+            "aluno_id": 231,
+            "aluno_nome": "GAEL DI ANKA SOUZA SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 36
+        },
+        {
             "chamada_id": 373,
             "data": "2026-03-30",
             "status": "falta",
@@ -52728,6 +52770,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 65474,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:39:59",
+            "aluno_id": 232,
+            "aluno_nome": "GEOVA MATHYAS DA COSTA SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 36
         },
         {
             "chamada_id": 870,
@@ -54898,6 +54954,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 65482,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:39:59",
+            "aluno_id": 241,
+            "aluno_nome": "JOSE ELYSON SOUZA DE OLIVEIRA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 36
         },
         {
             "chamada_id": 3100,
@@ -59784,6 +59854,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 65496,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:39:59",
+            "aluno_id": 255,
+            "aluno_nome": "RAILSON MAIA CAVALCANTE",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 36
         },
         {
             "chamada_id": 137,
@@ -72456,6 +72540,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 65375,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:10:04",
+            "aluno_id": 311,
+            "aluno_nome": "ARTHUR FELIX TEIXEIRA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 35
+        },
+        {
             "chamada_id": 3127,
             "data": "2026-04-10",
             "status": "falta",
@@ -75130,6 +75228,20 @@
             "professor_id": 39
         },
         {
+            "chamada_id": 65383,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:10:04",
+            "aluno_id": 319,
+            "aluno_nome": "FRANCISCO VICTOR REBOUCAS ALVES",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 35
+        },
+        {
             "chamada_id": 463,
             "data": "2026-03-30",
             "status": "falta",
@@ -76240,6 +76352,20 @@
             "data": "2026-10-21",
             "status": "falta",
             "created_at": "2026-10-21T08:44:39",
+            "aluno_id": 323,
+            "aluno_nome": "JOAO VICTOR ROCHA NOGUEIRA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 35
+        },
+        {
+            "chamada_id": 65387,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:10:04",
             "aluno_id": 323,
             "aluno_nome": "JOAO VICTOR ROCHA NOGUEIRA",
             "turma_id": 8,
@@ -77900,6 +78026,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 39
+        },
+        {
+            "chamada_id": 65392,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:10:04",
+            "aluno_id": 328,
+            "aluno_nome": "LUCAS TARCILLY SILVA BRAGA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 35
         },
         {
             "chamada_id": 6166,
@@ -82092,6 +82232,20 @@
             "data": "2026-10-22",
             "status": "falta",
             "created_at": "2026-10-22T08:08:28",
+            "aluno_id": 340,
+            "aluno_nome": "NAUHANA DA SILVA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 35
+        },
+        {
+            "chamada_id": 65403,
+            "data": "2026-10-28",
+            "status": "falta",
+            "created_at": "2026-10-28T09:10:04",
             "aluno_id": 340,
             "aluno_nome": "NAUHANA DA SILVA",
             "turma_id": 8,
