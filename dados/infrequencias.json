@@ -1,9 +1,9 @@
 {
     "sistema": "Escola",
     "tipo": "Infrequências",
-    "data_extracao": "2026-11-06",
-    "data_hora_extracao": "2026-11-06T14:30:09.326850",
-    "total_faltas": 10023,
+    "data_extracao": "2026-11-09",
+    "data_hora_extracao": "2026-11-09T14:30:09.781998",
+    "total_faltas": 10132,
     "infrequencias": [
         {
             "chamada_id": 494,
@@ -550,6 +550,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67942,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 1,
+            "aluno_nome": "ALICE JORDANA DA PAZ SANTOS",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 7058,
@@ -2288,6 +2302,20 @@
             "professor_id": 35
         },
         {
+            "chamada_id": 67948,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 7,
+            "aluno_nome": "CECILIA ELOINA OLIVEIRA COSTA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 7064,
             "data": "2026-04-24",
             "status": "falta",
@@ -2708,6 +2736,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67949,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 8,
+            "aluno_nome": "CLARA ALICIA NOLASCO DE SAOUZA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 7065,
             "data": "2026-04-24",
             "status": "falta",
@@ -3072,6 +3114,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67950,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 9,
+            "aluno_nome": "CLARA ANANDA NOLASCO DE SOUZA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 11440,
             "data": "2026-05-05",
             "status": "falta",
@@ -3364,6 +3420,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67951,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 10,
+            "aluno_nome": "CLARA YASMIM DE PAULA CARVALHO",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 504,
@@ -3870,6 +3940,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67952,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 11,
+            "aluno_nome": "DAFNY MARIA MARQUES REBOUCAS DA SILVA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 7068,
             "data": "2026-04-24",
             "status": "falta",
@@ -4136,6 +4220,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67953,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 12,
+            "aluno_nome": "DAFYNE RANNA DA SILVA FREITAS",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 4758,
             "data": "2026-04-17",
             "status": "falta",
@@ -4246,6 +4344,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67954,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 13,
+            "aluno_nome": "ERICK RENAN BARRETO DA SILVA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 3603,
@@ -4372,6 +4484,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 67955,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 14,
+            "aluno_nome": "FRANCISCO HOLANDA REIS NETO",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 7071,
@@ -4976,6 +5102,20 @@
             "professor_id": 32
         },
         {
+            "chamada_id": 67957,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 16,
+            "aluno_nome": "GABRIEL RAVI DA SILVA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 510,
             "data": "2026-03-30",
             "status": "falta",
@@ -5226,6 +5366,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 32
+        },
+        {
+            "chamada_id": 67959,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 18,
+            "aluno_nome": "GABRIELLE OLIVEIRA BRAGA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 7938,
@@ -5604,6 +5758,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67960,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 19,
+            "aluno_nome": "GLICIA JESSICA DE OLIVEIRA MAIA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 513,
@@ -6110,6 +6278,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67961,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 20,
+            "aluno_nome": "HIAGO ANDRADE BEZERRA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 3605,
             "data": "2026-04-14",
             "status": "falta",
@@ -6444,6 +6626,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67962,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 21,
+            "aluno_nome": "IAGO BRAGA CRISPIM",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 7078,
@@ -6810,6 +7006,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67963,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 22,
+            "aluno_nome": "ISIS JAMILY DA SILVA TORQUATO",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 4466,
             "data": "2026-04-16",
             "status": "falta",
@@ -7144,6 +7354,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67964,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 23,
+            "aluno_nome": "JESSICA KETILIN REBOUCAS DA CRUZ",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 10124,
@@ -7690,6 +7914,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67966,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 25,
+            "aluno_nome": "JOSILENE CONCEICAO LOPES DA SILVA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 519,
@@ -8264,6 +8502,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67967,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 26,
+            "aluno_nome": "JOSUE DE ASSIS SOUSA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 7083,
@@ -9036,6 +9288,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67971,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 31,
+            "aluno_nome": "LUNA CLARA COSTA PEREIRA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 4777,
             "data": "2026-04-17",
             "status": "falta",
@@ -9218,6 +9484,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67972,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 32,
+            "aluno_nome": "MARIA ALANA BRAGA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 10985,
             "data": "2026-05-04",
             "status": "falta",
@@ -9314,6 +9594,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 32
+        },
+        {
+            "chamada_id": 67973,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 33,
+            "aluno_nome": "MARIA CLARA DE SOUZA ROCHA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 7090,
@@ -10254,6 +10548,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67976,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 36,
+            "aluno_nome": "MARIA LICIELY BATISTA FREITAS",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 13738,
             "data": "2026-05-08",
             "status": "falta",
@@ -10490,6 +10798,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67978,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 38,
+            "aluno_nome": "MARIANE SOARES SILVA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 4784,
@@ -10938,6 +11260,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 67979,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 39,
+            "aluno_nome": "MATEUS CRISPIM DA COSTA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 3606,
@@ -11710,6 +12046,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 67982,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 42,
+            "aluno_nome": "SÁVILA MARQUES DE SOUSA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 8833,
             "data": "2026-04-28",
             "status": "falta",
@@ -12032,6 +12382,20 @@
             "professor_id": 32
         },
         {
+            "chamada_id": 67984,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 44,
+            "aluno_nome": "VITORIA ALAIDE DE OLIVEIRA",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
+        },
+        {
             "chamada_id": 12148,
             "data": "2026-05-06",
             "status": "falta",
@@ -12240,6 +12604,20 @@
             "curso_id": 11,
             "curso_nome": "Administração 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 67985,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T08:23:46",
+            "aluno_id": 45,
+            "aluno_nome": "WENDY ABREU MEDEIROS",
+            "turma_id": 1,
+            "turma_nome": "Administração 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 11,
+            "curso_nome": "Administração 2",
+            "professor_id": 22
         },
         {
             "chamada_id": 1867,
@@ -31310,6 +31688,20 @@
             "professor_id": 21
         },
         {
+            "chamada_id": 67986,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 132,
+            "aluno_nome": "Ana Stefani Do Nascimento Oliveira",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 2231,
             "data": "2026-04-09",
             "status": "falta",
@@ -31476,6 +31868,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 20
+        },
+        {
+            "chamada_id": 67987,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 133,
+            "aluno_nome": "Carlos Artur Costa Da Silva",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 1954,
@@ -31884,6 +32290,20 @@
             "professor_id": 21
         },
         {
+            "chamada_id": 67989,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 135,
+            "aluno_nome": "Cristyan Bonfim Da Silva",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 6630,
             "data": "2026-04-23",
             "status": "falta",
@@ -32078,6 +32498,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 21
+        },
+        {
+            "chamada_id": 67991,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 137,
+            "aluno_nome": "Denise Bernardo Da Silva",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 1324,
@@ -33186,6 +33620,20 @@
             "professor_id": 19
         },
         {
+            "chamada_id": 67994,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 140,
+            "aluno_nome": "Emilly Gabrielle Reboucas Maia",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 634,
             "data": "2026-03-30",
             "status": "falta",
@@ -33436,6 +33884,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 21
+        },
+        {
+            "chamada_id": 67995,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 141,
+            "aluno_nome": "Evellyn Hellen Silva Costa",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 11097,
@@ -34166,6 +34628,20 @@
             "professor_id": 21
         },
         {
+            "chamada_id": 67997,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 143,
+            "aluno_nome": "Francisco Reinaldo Da Silva Neto",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 2242,
             "data": "2026-04-09",
             "status": "falta",
@@ -34626,6 +35102,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 19
+        },
+        {
+            "chamada_id": 67999,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 145,
+            "aluno_nome": "Giana Marques De Sousa",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 1332,
@@ -35116,6 +35606,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 68001,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 147,
+            "aluno_nome": "Iris Silva Feitosa",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 66861,
@@ -35650,6 +36154,20 @@
             "professor_id": 35
         },
         {
+            "chamada_id": 68004,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 150,
+            "aluno_nome": "Jonathan Murilo Braga Silva",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 1971,
             "data": "2026-04-08",
             "status": "falta",
@@ -36012,6 +36530,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 21
+        },
+        {
+            "chamada_id": 68007,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 153,
+            "aluno_nome": "JUAN SOUSA DA SILVA",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 15862,
@@ -36756,6 +37288,20 @@
             "professor_id": 21
         },
         {
+            "chamada_id": 68010,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 156,
+            "aluno_nome": "LUAN COSTA SANTOS",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 651,
             "data": "2026-03-30",
             "status": "falta",
@@ -37344,6 +37890,20 @@
             "professor_id": 35
         },
         {
+            "chamada_id": 68013,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 159,
+            "aluno_nome": "Max Davi Braga Silva",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
+        },
+        {
             "chamada_id": 5187,
             "data": "2026-04-21",
             "status": "falta",
@@ -37594,6 +38154,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 21
+        },
+        {
+            "chamada_id": 68016,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 162,
+            "aluno_nome": "Mirelle Carvalho Oliveira",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 5190,
@@ -38042,6 +38616,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 21
+        },
+        {
+            "chamada_id": 68018,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 164,
+            "aluno_nome": "Nayara Da Silva Ferreira",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 1985,
@@ -38658,6 +39246,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 21
+        },
+        {
+            "chamada_id": 68021,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 167,
+            "aluno_nome": "Rhana Kely Cruz Reinaldo",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 1354,
@@ -39372,6 +39974,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 20
+        },
+        {
+            "chamada_id": 68025,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 171,
+            "aluno_nome": "Sophia Mary Silva De Oliveira",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 1358,
@@ -40338,6 +40954,20 @@
             "curso_id": 12,
             "curso_nome": "Agronegócio 2",
             "professor_id": 21
+        },
+        {
+            "chamada_id": 68028,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:01:13",
+            "aluno_id": 174,
+            "aluno_nome": "Valeria De Assis Oliveira",
+            "turma_id": 4,
+            "turma_nome": "Agronegócio 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 12,
+            "curso_nome": "Agronegócio 2",
+            "professor_id": 30
         },
         {
             "chamada_id": 317,
@@ -49006,6 +49636,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68163,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 219,
+            "aluno_nome": "ANA ALICIA FELIX BRAGA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 101,
             "data": "2026-02-19",
             "status": "falta",
@@ -49290,6 +49934,20 @@
             "data": "2026-10-23",
             "status": "falta",
             "created_at": "2026-10-23T07:34:54",
+            "aluno_id": 220,
+            "aluno_nome": "ANA CLARISSE DE ALMEIDA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
+            "chamada_id": 68164,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
             "aluno_id": 220,
             "aluno_nome": "ANA CLARISSE DE ALMEIDA",
             "turma_id": 6,
@@ -49692,6 +50350,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68165,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 221,
+            "aluno_nome": "ANA LARA LOPES FELIX",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 865,
             "data": "2026-03-31",
             "status": "falta",
@@ -49948,6 +50620,20 @@
             "data": "2026-11-06",
             "status": "falta",
             "created_at": "2026-11-06T07:36:27",
+            "aluno_id": 222,
+            "aluno_nome": "ARIEL OLIVEIRA DA SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
+            "chamada_id": 68166,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
             "aluno_id": 222,
             "aluno_nome": "ARIEL OLIVEIRA DA SILVA",
             "turma_id": 6,
@@ -50686,6 +51372,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68169,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 225,
+            "aluno_nome": "EVELLYN DAMARES ESTEVAM REBOUCAS",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 367,
             "data": "2026-03-30",
             "status": "falta",
@@ -50880,6 +51580,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 68170,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 226,
+            "aluno_nome": "FELIPE PEREIRA DA SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
         },
         {
             "chamada_id": 6241,
@@ -52244,6 +52958,20 @@
             "data": "2026-11-06",
             "status": "falta",
             "created_at": "2026-11-06T07:36:27",
+            "aluno_id": 537,
+            "aluno_nome": "FRANCISCO VINÍCIUS DE OLIVEIRA VERÍSSIMO",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
+            "chamada_id": 68171,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
             "aluno_id": 537,
             "aluno_nome": "FRANCISCO VINÍCIUS DE OLIVEIRA VERÍSSIMO",
             "turma_id": 6,
@@ -53864,6 +54592,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68174,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 229,
+            "aluno_nome": "GABRIEL RAMOS DE SOUZA OLIVEIRA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 1374,
             "data": "2026-04-06",
             "status": "falta",
@@ -54114,6 +54856,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 68175,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 230,
+            "aluno_nome": "GABRIEL REBOUCAS PIMENTEL",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
         },
         {
             "chamada_id": 1375,
@@ -54774,6 +55530,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68176,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 231,
+            "aluno_nome": "GAEL DI ANKA SOUZA SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 373,
             "data": "2026-03-30",
             "status": "falta",
@@ -55152,6 +55922,20 @@
             "professor_id": 36
         },
         {
+            "chamada_id": 68177,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 232,
+            "aluno_nome": "GEOVA MATHYAS DA COSTA SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 870,
             "data": "2026-03-31",
             "status": "falta",
@@ -55450,6 +56234,20 @@
             "data": "2026-10-23",
             "status": "falta",
             "created_at": "2026-10-23T07:34:54",
+            "aluno_id": 234,
+            "aluno_nome": "GUILHERME SILVA CRUZ",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
+            "chamada_id": 68178,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
             "aluno_id": 234,
             "aluno_nome": "GUILHERME SILVA CRUZ",
             "turma_id": 6,
@@ -55948,6 +56746,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 68180,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 236,
+            "aluno_nome": "IAN MAIA TAHIM",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
         },
         {
             "chamada_id": 378,
@@ -56468,6 +57280,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68181,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 237,
+            "aluno_nome": "ISABELLY GUIMARAES REBOUCAS",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 379,
             "data": "2026-03-30",
             "status": "falta",
@@ -56762,6 +57588,20 @@
             "professor_id": 36
         },
         {
+            "chamada_id": 68182,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 238,
+            "aluno_nome": "JOABE PEREIRA PATRIOTA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 120,
             "data": "2026-02-19",
             "status": "falta",
@@ -56886,6 +57726,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 17
+        },
+        {
+            "chamada_id": 68183,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 239,
+            "aluno_nome": "JOAO VICTOR ROCHA DA SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
         },
         {
             "chamada_id": 121,
@@ -57476,6 +58330,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68185,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 241,
+            "aluno_nome": "JOSE ELYSON SOUZA DE OLIVEIRA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 3100,
             "data": "2026-04-10",
             "status": "falta",
@@ -57658,6 +58526,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68186,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 242,
+            "aluno_nome": "JOSE GUILHERME DA SILVA PINHEIRO",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 3538,
             "data": "2026-04-14",
             "status": "falta",
@@ -57802,6 +58684,20 @@
             "data": "2026-11-06",
             "status": "falta",
             "created_at": "2026-11-06T07:36:27",
+            "aluno_id": 243,
+            "aluno_nome": "JOSE ITALO REBOUCAS GALVAO",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
+            "chamada_id": 68187,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
             "aluno_id": 243,
             "aluno_nome": "JOSE ITALO REBOUCAS GALVAO",
             "turma_id": 6,
@@ -58258,6 +59154,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 68189,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 245,
+            "aluno_nome": "LEVI DA SILVA COSTA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
         },
         {
             "chamada_id": 6260,
@@ -59660,6 +60570,20 @@
             "professor_id": 36
         },
         {
+            "chamada_id": 68192,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 248,
+            "aluno_nome": "MARIA NATHALIA ROCHA RODRIGUES",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 872,
             "data": "2026-03-31",
             "status": "falta",
@@ -59954,6 +60878,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68193,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 249,
+            "aluno_nome": "MARIA RUTE SILVA NOGUEIRA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 131,
             "data": "2026-02-19",
             "status": "falta",
@@ -60112,6 +61050,20 @@
             "data": "2026-10-23",
             "status": "falta",
             "created_at": "2026-10-23T07:34:54",
+            "aluno_id": 250,
+            "aluno_nome": "MIGUEL GEIMESON MELO SILVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
+            "chamada_id": 68194,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
             "aluno_id": 250,
             "aluno_nome": "MIGUEL GEIMESON MELO SILVA",
             "turma_id": 6,
@@ -60350,6 +61302,20 @@
             "data": "2026-10-09",
             "status": "falta",
             "created_at": "2026-10-09T08:00:24",
+            "aluno_id": 251,
+            "aluno_nome": "NICOLY SILVA SANTOS SOUZA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
+            "chamada_id": 68195,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
             "aluno_id": 251,
             "aluno_nome": "NICOLY SILVA SANTOS SOUZA",
             "turma_id": 6,
@@ -60766,6 +61732,20 @@
             "professor_id": 36
         },
         {
+            "chamada_id": 68196,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 252,
+            "aluno_nome": "PEDRO LUCAS DA SILVA NUNES",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 394,
             "data": "2026-03-30",
             "status": "falta",
@@ -61050,6 +62030,20 @@
             "data": "2026-10-23",
             "status": "falta",
             "created_at": "2026-10-23T07:34:54",
+            "aluno_id": 254,
+            "aluno_nome": "RAFAELA YLANA SILVA DE PAIVA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
+            "chamada_id": 68198,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
             "aluno_id": 254,
             "aluno_nome": "RAFAELA YLANA SILVA DE PAIVA",
             "turma_id": 6,
@@ -62572,6 +63566,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68199,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 255,
+            "aluno_nome": "RAILSON MAIA CAVALCANTE",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 137,
             "data": "2026-02-19",
             "status": "falta",
@@ -64000,6 +65008,20 @@
             "professor_id": 14
         },
         {
+            "chamada_id": 68203,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 259,
+            "aluno_nome": "SOFIA HELLEN DA SILVA CARNEIRO",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 141,
             "data": "2026-02-19",
             "status": "falta",
@@ -64266,6 +65288,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68204,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 260,
+            "aluno_nome": "THAUANNY NICOLLY DA SILVA CRUZ",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
+        },
+        {
             "chamada_id": 5457,
             "data": "2026-04-21",
             "status": "falta",
@@ -64334,6 +65370,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 16
+        },
+        {
+            "chamada_id": 68205,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 261,
+            "aluno_nome": "VICTOR MANUEL NASCIMENTO DE LIMA",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
         },
         {
             "chamada_id": 143,
@@ -65146,6 +66196,20 @@
             "curso_id": 13,
             "curso_nome": "Desenvolvimento de Sistemas 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 68206,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T11:07:54",
+            "aluno_id": 262,
+            "aluno_nome": "VITOR EMANUEL LINO REBOUCAS",
+            "turma_id": 6,
+            "turma_nome": "Desenvolvimento de Sistemas 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 13,
+            "curso_nome": "Desenvolvimento de Sistemas 2",
+            "professor_id": 11
         },
         {
             "chamada_id": 2452,
@@ -73954,6 +75018,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68032,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 309,
+            "aluno_nome": "ANA CLARISSE DA SILVA ARAUJO",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 3125,
             "data": "2026-04-10",
             "status": "falta",
@@ -74246,6 +75324,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 68033,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 310,
+            "aluno_nome": "ARIANE BRAGA DE FARIAS",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
         },
         {
             "chamada_id": 2324,
@@ -75494,6 +76586,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68034,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 311,
+            "aluno_nome": "ARTHUR FELIX TEIXEIRA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 3127,
             "data": "2026-04-10",
             "status": "falta",
@@ -76122,6 +77228,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 68036,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 313,
+            "aluno_nome": "Carlos Antônio de Sousa Araújo",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
         },
         {
             "chamada_id": 2327,
@@ -78308,6 +79428,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68042,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 319,
+            "aluno_nome": "FRANCISCO VICTOR REBOUCAS ALVES",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 463,
             "data": "2026-03-30",
             "status": "falta",
@@ -78952,6 +80086,20 @@
             "professor_id": 35
         },
         {
+            "chamada_id": 68044,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 321,
+            "aluno_nome": "JOAO GABRIEL BRAGA NASCIMENTO",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 6559,
             "data": "2026-04-23",
             "status": "falta",
@@ -79470,6 +80618,20 @@
             "professor_id": 35
         },
         {
+            "chamada_id": 68046,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 323,
+            "aluno_nome": "JOAO VICTOR ROCHA NOGUEIRA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 10074,
             "data": "2026-04-30",
             "status": "falta",
@@ -79684,6 +80846,20 @@
             "data": "2026-10-27",
             "status": "falta",
             "created_at": "2026-10-27T12:32:36",
+            "aluno_id": 325,
+            "aluno_nome": "JULIA NOGUEIRA DE AMORIM",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
+            "chamada_id": 68048,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
             "aluno_id": 325,
             "aluno_nome": "JULIA NOGUEIRA DE AMORIM",
             "turma_id": 8,
@@ -80196,6 +81372,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 68049,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 326,
+            "aluno_nome": "KELVY DA SILVA FERREIRA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
         },
         {
             "chamada_id": 6387,
@@ -81274,6 +82464,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 29
+        },
+        {
+            "chamada_id": 68051,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 328,
+            "aluno_nome": "LUCAS TARCILLY SILVA BRAGA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
         },
         {
             "chamada_id": 6166,
@@ -82690,6 +83894,20 @@
             "professor_id": 35
         },
         {
+            "chamada_id": 68055,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 333,
+            "aluno_nome": "MARCOS VICTOR FERREIRA DE MENDONCA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 6394,
             "data": "2026-03-26",
             "status": "falta",
@@ -83334,6 +84552,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68056,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 334,
+            "aluno_nome": "MARESSA DA SILVA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 6395,
             "data": "2026-03-26",
             "status": "falta",
@@ -83892,6 +85124,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 68058,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 336,
+            "aluno_nome": "MARIA STHEFANY DE OLIVEIRA MAIA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
         },
         {
             "chamada_id": 480,
@@ -85056,6 +86302,20 @@
             "professor_id": 29
         },
         {
+            "chamada_id": 68060,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 338,
+            "aluno_nome": "MAYRA CIBELE SANTOS BRAGA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 13562,
             "data": "2026-05-08",
             "status": "falta",
@@ -85670,6 +86930,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 68062,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 340,
+            "aluno_nome": "NAUHANA DA SILVA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
         },
         {
             "chamada_id": 8604,
@@ -86314,6 +87588,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 68064,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 342,
+            "aluno_nome": "RAMON ROCHA REBOUCAS",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
         },
         {
             "chamada_id": 486,
@@ -87548,6 +88836,20 @@
             "professor_id": 30
         },
         {
+            "chamada_id": 68066,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 344,
+            "aluno_nome": "REBECA LAYANNE FREIRE COSTA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 6405,
             "data": "2026-03-26",
             "status": "falta",
@@ -88416,6 +89718,20 @@
             "professor_id": 35
         },
         {
+            "chamada_id": 68069,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 347,
+            "aluno_nome": "SOPHIA FERNANDES BAETEN",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
+        },
+        {
             "chamada_id": 1619,
             "data": "2026-04-07",
             "status": "falta",
@@ -88568,6 +89884,20 @@
             "curso_id": 14,
             "curso_nome": "Guia de Turismo 2",
             "professor_id": 30
+        },
+        {
+            "chamada_id": 68070,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T09:45:44",
+            "aluno_id": 348,
+            "aluno_nome": "STHEFANY CARVALHO OLIVEIRA",
+            "turma_id": 8,
+            "turma_nome": "Guia de Turismo 2 - 2º Ano",
+            "ano": "2º Ano",
+            "curso_id": 14,
+            "curso_nome": "Guia de Turismo 2",
+            "professor_id": 39
         },
         {
             "chamada_id": 48564,
@@ -117074,6 +118404,20 @@
             "professor_id": 16
         },
         {
+            "chamada_id": 68208,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 438,
+            "aluno_nome": "Ana Beatriz Cassiano da Silva",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
             "chamada_id": 713,
             "data": "2026-03-30",
             "status": "falta",
@@ -117268,6 +118612,20 @@
             "curso_id": 7,
             "curso_nome": "Informática 1",
             "professor_id": 36
+        },
+        {
+            "chamada_id": 68209,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 439,
+            "aluno_nome": "Ana Evelyn da Silva",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
         },
         {
             "chamada_id": 5765,
@@ -119468,6 +120826,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68219,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 448,
+            "aluno_nome": "Felipe de Oliveira Claudio",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
             "chamada_id": 3997,
             "data": "2026-04-15",
             "status": "falta",
@@ -120406,6 +121778,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68221,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 451,
+            "aluno_nome": "Gabriele Silva Braga",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
             "chamada_id": 1110,
             "data": "2026-04-01",
             "status": "falta",
@@ -120536,6 +121922,20 @@
             "data": "2026-10-22",
             "status": "falta",
             "created_at": "2026-10-22T09:19:43",
+            "aluno_id": 452,
+            "aluno_nome": "Gleiciane Rodrigues da Silva",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
+            "chamada_id": 68222,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
             "aluno_id": 452,
             "aluno_nome": "Gleiciane Rodrigues da Silva",
             "turma_id": 11,
@@ -120866,6 +122266,20 @@
             "curso_id": 7,
             "curso_nome": "Informática 1",
             "professor_id": 16
+        },
+        {
+            "chamada_id": 68223,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 455,
+            "aluno_nome": "Iago Crsipim Braga",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
         },
         {
             "chamada_id": 5780,
@@ -123780,6 +125194,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68233,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 464,
+            "aluno_nome": "Levi Nunes Freire Constâncio",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
             "chamada_id": 171,
             "data": "2026-02-20",
             "status": "falta",
@@ -124414,6 +125842,20 @@
             "data": "2026-10-22",
             "status": "falta",
             "created_at": "2026-10-22T09:19:43",
+            "aluno_id": 466,
+            "aluno_nome": "Lunna Gabriely Lino Costa",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
+            "chamada_id": 68235,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
             "aluno_id": 466,
             "aluno_nome": "Lunna Gabriely Lino Costa",
             "turma_id": 11,
@@ -125558,6 +127000,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68239,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 470,
+            "aluno_nome": "Marlyson Ryan nascimento da Costa",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
             "chamada_id": 1128,
             "data": "2026-04-01",
             "status": "falta",
@@ -125710,6 +127166,20 @@
             "curso_id": 7,
             "curso_nome": "Informática 1",
             "professor_id": 35
+        },
+        {
+            "chamada_id": 68240,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 471,
+            "aluno_nome": "Mirela Lopes Braga",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
         },
         {
             "chamada_id": 746,
@@ -126692,6 +128162,20 @@
             "professor_id": 11
         },
         {
+            "chamada_id": 68244,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 475,
+            "aluno_nome": "Samuel Leandro Crispim da Silva",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
             "chamada_id": 10436,
             "data": "2026-04-30",
             "status": "falta",
@@ -127656,6 +129140,20 @@
             "curso_id": 7,
             "curso_nome": "Informática 1",
             "professor_id": 36
+        },
+        {
+            "chamada_id": 68246,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 477,
+            "aluno_nome": "Tarcio Roberto Cunha Júnior",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
         },
         {
             "chamada_id": 184,
@@ -128624,6 +130122,20 @@
             "professor_id": 36
         },
         {
+            "chamada_id": 68249,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 480,
+            "aluno_nome": "Wanessa Eloá Silva de Sousa",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
+        },
+        {
             "chamada_id": 5413,
             "data": "2026-04-21",
             "status": "falta",
@@ -128846,6 +130358,20 @@
             "curso_id": 7,
             "curso_nome": "Informática 1",
             "professor_id": 11
+        },
+        {
+            "chamada_id": 68250,
+            "data": "2026-11-09",
+            "status": "falta",
+            "created_at": "2026-11-09T14:26:50",
+            "aluno_id": 481,
+            "aluno_nome": "Ytalo Levy da Silva",
+            "turma_id": 11,
+            "turma_nome": "Informática 1 - 1º Ano",
+            "ano": "1º Ano",
+            "curso_id": 7,
+            "curso_nome": "Informática 1",
+            "professor_id": 33
         },
         {
             "chamada_id": 15973,
